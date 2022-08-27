@@ -1,0 +1,117 @@
+/*---------------------------------
+ *  Photos gallery > With captions
+ *---------------------------------*/
+.photosgallery-captions{width:100%;height:360px;}
+
+/* Navbar */
+.photosgallery-captions .sliderkit-nav{left:0;bottom:0px;width:100%;}
+.photosgallery-captions .sliderkit-nav-clip ul li{float:left;margin:0;}
+.photosgallery-captions .sliderkit-nav-clip ul li a{display:block;width:75px;height:50px;overflow:hidden;margin:0 0 0  5px;padding:3px; border:1px solid #fff;}
+.photosgallery-captions .sliderkit-nav-clip ul li.sliderkit-selected a{padding:0;border:1px solid #ccc;}
+
+/* Buttons */
+.photosgallery-captions .sliderkit-btn{position:absolute;top:0;}
+.photosgallery-captions .sliderkit-btn a{display:block;}
+.photosgallery-captions .sliderkit-btn span{display:none;}
+.photosgallery-captions .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;}
+.photosgallery-captions .sliderkit-btn-disable a:hover{cursor:default;}
+
+/* Buttons > Go buttons */
+
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev{left:-4px; top:35px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next{right:4px; top:35px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a{background-position:0 center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a{background-position:-20px center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a:hover,
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a:focus{background-position:-40px center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a:hover,
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a:focus{background-position:-60px center;}
+
+/* Panel */
+.photosgallery-captions .sliderkit-panel{top:0;left:0;width:100%;}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .photosgallery-captions{height:300px!important;}
+    .myshare {float:right!important;padding-right:36px;}
+    .pad0{padding-left:0;padding-right:0;}
+    .pad-sidebar{padding-left:15px;}
+    .suggest_price{margin-left:0!important;margin-right:0!important;}
+    .photosgallery-captions .sliderkit-nav{left:0;bottom:12px;width:100%;}
+    .sliderkit-nav-clip{width:320px!important;}
+    .description{padding-top:30px;padding-left:0;padding-right:0;}
+    input[type="radio"] + label span{background:rgba(0, 0, 0, 0) url("../../images/AOD/radio-btn.png") no-repeat scroll right top;}
+    .description1{padding-top:30px;}
+
+}
+
+
+
+@media (min-width:992px) and (max-width:1195px) {
+    .photosgallery-captions{height:300px!important;}
+     .padShare{padding:0!important;}
+    .myshare {float:right;padding-right:0px;}
+    .pad0{padding-left:0;padding-right:0;}
+    .pad-sidebar{padding-left:0;padding-right:0;}
+     .suggest_price{margin-left:0!important;margin-right:0!important;}
+     .sliderkit-nav-clip{width:320px!important;}
+    .suggest_price{margin-left:0!important;margin-right:0!important;}
+     .description{padding-top:30px;padding-left:0;padding-right:0;}
+     .description1{padding-top:30px;}
+    .photosgallery-captions .sliderkit-nav{left:0;bottom:12px;width:100%;}
+     input[type="radio"] + label span{background:rgba(0, 0, 0, 0) url("../../images/AOD/radio-btn.png") no-repeat scroll right top;}
+}
+
+@media (max-width:720px){
+
+  .photosgallery-captions .sliderkit-nav{bottom:22px;}
+}
+
+
+@media (max-width:640px){
+
+  input[type="radio"] + label span{background:rgba(0, 0, 0, 0) url("../../images/AOD/radio-btn.png") no-repeat scroll right top!important;}
+}
+
+@media (width:1024px){
+.photosgallery-captions{height:290px;}
+}
+@media (min-width:370px) and (max-width:480px){
+  .sliderkit-nav-clip{width:300px!important;}
+
+}
+
+@media (width:360px){
+.photosgallery-captions{height:260px;}
+.sliderkit-nav-clip{width:150px !important;}
+
+}
+@media (width:480px){
+.photosgallery-captions{height:330px;}
+
+}
+@media (width:640px){
+.photosgallery-captions{height:420px;}
+
+
+}
+
+@media (width:320px){
+.photosgallery-captions{height:235px;}
+.sliderkit-nav-clip{width:150px !important;}
+}
+
+
+
+
+@media (max-width:767px) {
+    .small-device {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .small-device {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+[type="button"] {
+    margin-bottom: 10px !important;
+}
+
+input[type="text"], input[type="password"], textarea, select {
+    color: #000 !important;
+}
+
+input[type="checkbox"] {
+    opacity: 1 !important;
+}
+
+li.disabled {
+    pointer-events: none;
+    cursor: default;
+}

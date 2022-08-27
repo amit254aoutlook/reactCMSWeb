@@ -1,0 +1,15 @@
+/** 
+ *  sliderkit-site.css
+ *	> generic styles for Slider Kit plugin website presentation
+ * 
+ */
+
+/*---------------------------------
+ *  Slider kit
+ *---------------------------------*/
+.sliderkit,
+.customtabs{margin:0px 0 10px 0;}
+.sliderkit .sliderkit-nav-clip a:active{color:#fff}
+.sliderkit .sliderkit-nav-clip a:hover{text-decoration:none;}
+
+.sliderkit-nav-clip .thumbnail{padding:1px !important;}

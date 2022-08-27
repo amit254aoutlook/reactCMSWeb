@@ -1,0 +1,13 @@
+.ui-notify { width:350px; position:fixed; bottom:0px; right:15px;}
+.ui-notify-message { padding:10px; margin-bottom:15px; -moz-border-radius:10px 10px 0 0; -webkit-border-radius:10px 10px 0 0; border-radius:10px 10px 0 0 }
+.ui-notify-message h1 { font-size:14px; margin:0; padding:0 }
+.ui-notify-message p { margin:3px 0; padding:0; line-height:18px }
+.ui-notify-message:last-child { margin-bottom:0; min-height:220px; }
+.ui-notify-message-style { background:#fff; border:1px solid #666666; border-bottom:none; }
+.ui-notify-message-style h1 { color:#323232; font-size:20px; line-height:26px; margin-bottom:10px;}
+.ui-notify-message-style p { color:#323232; font-size:11px; }
+.ui-notify-close { color:#000; text-decoration:underline }
+.ui-notify-click { cursor:pointer }
+.ui-notify-cross { margin-top:-25px; margin-right:-23px; float:right; cursor:pointer; text-decoration:none; font-size:12px; font-weight:bold; text-shadow:0 1px 1px #000; padding:2px }
+.ui-notify-cross:hover { color:#ffffab }
+.ui-notify-cross:active { position:relative; top:1px }

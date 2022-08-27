@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+}
+.navmenu, .navbar-offcanvas {
+    width: 250px;
+}
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+.navmenu {
+  z-index: 1;
+}
+
+.canvas {
+  position: relative;
+  left: 0;
+  z-index: 2;
+  min-height: 100%;
+  padding: 50px 0 0 0;
+  background: #f9f9f9;
+}
+.navmenu-inverse, .navbar-inverse .navbar-offcanvas {
+    background-color: #221f1f;
+    border-color: #080808;
+}
+.page-header {
+    margin: 0;
+	padding:10px 0;
+	background:#FFF;
+}
+.navbar-toggle{
+	margin-top:10px;
+}
+.navbar-toggle .icon-bar {
+	background:#FFF;
+}
+.logo-margin-65{
+	margin-left:65px;
+}
+.display-area{margin-top:75px;}
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+.side > li{
+	border-bottom:#333 1px dashed;
+	}
+.margin-right-30 {
+    margin-right: 15px;
+}
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}
+@media (min-width:320px) and (max-width:768px){
+   body{padding-top:73px;}
+}
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+  }
+  .navbar {
+    right: auto;
+    background: none;
+    border: none;
+  }
+  .canvas {
+    padding: 0;
+  }
+}

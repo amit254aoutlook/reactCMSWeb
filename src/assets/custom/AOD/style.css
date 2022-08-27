@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{margin:0; padding:0; font-family:"Lucida Console", Monaco, monospace; font-weight:normal; background:url(../../../Content/images/AOD/Certificate/main-bg.jpg) repeat-y center top !important; background-size:100%;}
+body, html{height:100%;}
+
+.wrapper-print{width:700px; height:840px; position:relative; margin:0 auto;}
+.top-left{position:absolute; left:0; top:0; z-index:1;}
+.top-middle{position:absolute; left:50px; top:0; right:50px; background:url(../../../Content/images/AOD/Certificate/top-bg.png) repeat-x left 15px !important; height:118px; z-index:0;}
+.top-right{position:absolute; right:0; top:0; z-index:2;}
+
+.bottom-left{position:absolute; left:0; bottom:0; z-index:1;}
+.bottom-middle{position:absolute; left:50px; bottom:0; right:50px; background:url(../../../Content/images/AOD/Certificate/bottom2-bg.png) repeat-x left -10px !important; height:118px; z-index:0;}
+.bottom-right{position:absolute; right:0; bottom:0; z-index:2;}
+
+.left-side, .right-side{ width:140px; height:740px; position:absolute;  z-index:-2; top:50px; bottom:50px;}
+.left-side{left:0; background:url(../../../Content/images/AOD/Certificate/left-bg.png) repeat-y -20px top !important;}
+.right-side{right:0; background:url(../../../Content/images/AOD/Certificate/right2-bg.png) repeat-y 20px top !important;}
+.content{position:absolute; left:115px; right:115px; top:140px; bottom:200px; height:600px;}
+.content h1{text-align:center; font-size:1.6em;}
+.content p{font-size:1em; line-height:1.5em;}
+.content p span{font-style:italic; font-weight:600;}
+.content p span.left{float:left;}
+.content p span.right{float:right;}
+
+.logo-container{width:100%; position:absolute; bottom:0; }
+.logo-left{width:42%; float:left; text-align:center;}
+.logo-right{width:42%; float:left;}
+
+
+@media print {
+body {
+   content:url(../../../Content/images/AOD/Certificate/main-bg.jpg);
+  }
+.top-middle{
+   content:url(../../../img/top-bg.png);
+  }
+.bottom-middle{
+   content:url(../../../img/bottom2-bg.png);
+  }
+.left-side{
+   content:url(../img/left-bg.png);
+  }
+.right-side{
+   content:url(../../../img/right2-bg.png);
+  }
+}
